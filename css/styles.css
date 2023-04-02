@@ -97,6 +97,7 @@ ul {list-style: none;}
 		letter-spacing: 0.04em;
 		color: var(--white);
 		background-color: var(--iris);
+		cursor: pointer;
 	}
 	.hero-btn:hover {
 		background-color: var(--ocean);
@@ -166,6 +167,7 @@ ul {list-style: none;}
 		letter-spacing: 0.04em;
 		color: var(--iris);
 		background-color: var(--cloud);
+		cursor: pointer;
 	}
 	.portfolio-btn-list button:hover {
 		color: var(--white);
