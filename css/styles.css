@@ -22,7 +22,7 @@ body {
     font-family: var(--primary-font);
 	font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
 	letter-spacing: 2%; 
 	font-style: normal;
     color: var(--navy-blue);
@@ -41,7 +41,7 @@ ul {list-style: none;}
    		font-family: var(--secondary-font);
     	font-size: 18px;
     	font-weight: 800;
-		line-height: 1,17;
+		line-height: 1.17;
 		letter-spacing: 0.03em;
 		color: var(--iris);
 		text-transform: uppercase;
@@ -50,7 +50,7 @@ ul {list-style: none;}
 		font-family: var(--secondary-font);
     	font-size: 18px;
     	font-weight: 800;
-		line-height: 1,17;
+		line-height: 1.17;
 		letter-spacing: 0.03em;
 		color: var(--navy-blue);
 		text-transform: uppercase;
@@ -86,7 +86,7 @@ ul {list-style: none;}
 	.hero-title {
 		font-weight: 700;
 		font-size: 56px;
-		line-height: 1,07;
+		line-height: 1.07;
 		color: var(--white);
 		text-align: center;
 	}
@@ -110,7 +110,7 @@ ul {list-style: none;}
 	.features-list h3 {
 		font-weight: 500;
 		font-size: 20px;
-		line-height: 1,2;
+		line-height: 1.2;
 	}
 	.features-list p {
 		color: var(--slate);
@@ -120,7 +120,7 @@ ul {list-style: none;}
 	.title {
 		font-weight: 700;
 		font-size: 36px;
-		line-height: 1,11;
+		line-height: 1.11;
 		text-align: center;
 		text-transform: capitalize;
 	}
@@ -135,7 +135,7 @@ ul {list-style: none;}
 	.team-list h3 {
 		font-weight: 500;
 		font-size: 20px;
-		line-height: 1,2;
+		line-height: 1.2;
 	}
 	.team-list p {
 		color: var(--slate);
@@ -149,7 +149,7 @@ ul {list-style: none;}
 		font-family: var(--secondary-font);
     	font-size: 18px;
     	font-weight: 800;
-		line-height: 1,17;
+		line-height: 1.17;
 		letter-spacing: 0.03em;
 		color: var(--cloud);
 		text-transform: uppercase;
@@ -180,7 +180,7 @@ ul {list-style: none;}
 	.portfolio-card-list h2 {
 		font-weight: 500;
 		font-size: 20px;
-		line-height: 1,2;
+		line-height: 1.2;
 	}
 	.portfolio-card-list p {
 		color: var(--slate);
