@@ -1,13 +1,5 @@
-body {
-    background-color: #fcfcfc;
-    font-family: roboto;
-    font-size: 16px;
-    font-weight: 400;
-	font-style: normal;
-    color: 2E2F42;
-}
-
 :root {
+	/* Colors */
 	--iris: #4d5ae5;
 	--ocean: #404bbf;
 	--navy-blue: #2e2f42;
@@ -20,18 +12,174 @@ body {
 	--grey: #2e2f42;
 	--white: #ffffff;
 	--dairy: #fcfcfc;
+	/* Fonts */
+	--primary-font: Roboto, sans-serif;
+	--secondary-font: Raleway, sans-serif;
 }
+
+body {
+    background-color: var(--white);
+    font-family: var(--primary-font);
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+	letter-spacing: 2%; 
+	font-style: normal;
+    color: var(--navy-blue);
+}
+a {text-decoration: none;
+	color: currentColor;}
+ul {list-style: none;}
 
 /* Header */
-.header {
-    background-color: var(--white);
-}
-.logo {
-    font-family: raleway;
-    font-size: 18px;
-    line-height: 21px;
+	.header {
+    	background-color: var(--white);
+	}
 
-}
-.header-logo {
+	/* Logo */
+	.logo {
+   		font-family: var(--secondary-font);
+    	font-size: 18px;
+    	font-weight: 800;
+		line-height: 1,17;
+		letter-spacing: 0.03em;
+		color: var(--iris);
+		text-transform: uppercase;
+	}
+	.header-logo {
+		font-family: var(--secondary-font);
+    	font-size: 18px;
+    	font-weight: 800;
+		line-height: 1,17;
+		letter-spacing: 0.03em;
+		color: var(--navy-blue);
+		text-transform: uppercase;
+	}
 
-}
+	/* Nav */
+	.header-menu a {
+		font-weight: 500;
+	}
+	.header-menu a:hover {
+		color: var(--ocean);
+	}
+	.header-menu a:focus {
+		color: var(--ocean);
+	}
+
+	/* Contacts */
+	.header-contacts a {
+		color: var(--slate);
+		font-style: normal;
+	}
+	.header-contacts a:hover {
+		color: var(--ocean);
+	}
+	.header-contacts a:focus {
+		color: var(--ocean);
+	}
+
+/* Hero image */
+	#studio {
+		background-color: var(--navy-blue);
+	}
+	.hero-title {
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 1,07;
+		color: var(--white);
+		text-align: center;
+	}
+	.hero-btn {
+		font-family: inherit;
+		font-weight: 500;
+		align-items: center;
+		letter-spacing: 0.04em;
+		color: var(--white);
+		background-color: var(--iris);
+	}
+	.hero-btn:hover {
+		background-color: var(--ocean);
+	}
+	.hero-btn:focus {
+		background-color: var(--ocean);
+	}
+
+/* Section features */
+	.features-list h3 {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1,2;
+	}
+	.features-list p {
+		color: var(--slate);
+	}
+	
+/* Section 2 */
+	.title {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 1,11;
+		text-align: center;
+		text-transform: capitalize;
+	}
+
+/* Section Team */
+	.team {
+		background-color: var(--cloud);
+	}
+	.team-list li {
+		background-color: var(--white);
+	}
+	.team-list h3 {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1,2;
+	}
+	.team-list p {
+		color: var(--slate);
+	}
+	
+/* Footer */
+	.footer {
+		background-color: var(--navy-blue);
+	}
+	.footer-logo {
+		font-family: var(--secondary-font);
+    	font-size: 18px;
+    	font-weight: 800;
+		line-height: 1,17;
+		letter-spacing: 0.03em;
+		color: var(--cloud);
+		text-transform: uppercase;
+	}
+	.footer p {
+		color: var(--cloud)
+	}
+
+
+/* Portfolio */
+	.portfolio-btn-list button {
+		font-family: inherit;
+		font-weight: 500;
+		text-align: center;
+		letter-spacing: 0.04em;
+		color: var(--iris);
+		background-color: var(--cloud);
+	}
+	.portfolio-btn-list button:hover {
+		color: var(--white);
+		background-color: var(--ocean);
+	}
+	.portfolio-btn-list button:focus {
+		color: var(--white);
+		background-color: var(--ocean);
+	}
+	.portfolio-card-list h2 {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1,2;
+	}
+	.portfolio-card-list p {
+		color: var(--slate);
+	}
