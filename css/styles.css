@@ -36,14 +36,16 @@ body {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
+	letter-spacing: 0.02em;
 	text-align: center;
 	text-transform: capitalize;
-	color: var(--navy-blue)
+	color: var(--navy-blue);
 }
 .subtitle {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
+	letter-spacing: 0.02em;
 	color: var(--navy-blue)
 }
 .desc {
@@ -100,21 +102,24 @@ body {
 	}
 
 /* Hero image */
-	#studio {
+	.studio {
 		background-color: var(--navy-blue);
 	}
 	.hero-title {
 		font-weight: 700;
 		font-size: 56px;
 		line-height: 1.07;
+		letter-spacing: 0.02em;
 		color: var(--white);
 		text-align: center;
 	}
 	.hero-btn {
 		font-family: inherit;
 		font-weight: 500;
-		align-items: center;
+		font-size: 16px;
+    	line-height: 1.5;
 		letter-spacing: 0.04em;
+		align-items: center;
 		color: var(--white);
 		background-color: var(--iris);
 		cursor: pointer;
@@ -130,7 +135,7 @@ body {
 	.team {
 		background-color: var(--cloud);
 	}
-	.team-list li {
+	.team-list-item {
 		background-color: var(--white);
 	}
 	
@@ -153,10 +158,12 @@ body {
 
 
 /* Portfolio */
-	.portfolio-btn-list button {
+	.portfolio-btn {
 		font-family: inherit;
 		font-weight: 500;
 		text-align: center;
+		font-size: 16px;
+    	line-height: 1.5;
 		letter-spacing: 0.04em;
 		color: var(--iris);
 		background-color: var(--cloud);
