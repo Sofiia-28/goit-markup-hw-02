@@ -23,13 +23,33 @@ body {
 	font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-	letter-spacing: 2%; 
+	letter-spacing: 0.02em; 
 	font-style: normal;
-    color: var(--navy-blue);
+    color: var(--slate);
 }
-a {text-decoration: none;
+.link {text-decoration: none;
 	color: currentColor;}
-ul {list-style: none;}
+.list {list-style: none;}
+
+/* Recurring classes */
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--navy-blue)
+}
+.subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--navy-blue)
+}
+.desc {
+	letter-spacing: 0.02em; 
+}
+
 
 /* Header */
 	.header {
@@ -59,6 +79,7 @@ ul {list-style: none;}
 	/* Nav */
 	.header-menu a {
 		font-weight: 500;
+		color: var(--navy-blue)
 	}
 	.header-menu a:hover {
 		color: var(--ocean);
@@ -69,7 +90,6 @@ ul {list-style: none;}
 
 	/* Contacts */
 	.header-contacts a {
-		color: var(--slate);
 		font-style: normal;
 	}
 	.header-contacts a:hover {
@@ -106,39 +126,12 @@ ul {list-style: none;}
 		background-color: var(--ocean);
 	}
 
-/* Section features */
-	.features-list h3 {
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 1.2;
-	}
-	.features-list p {
-		color: var(--slate);
-	}
-	
-/* Section 2 */
-	.title {
-		font-weight: 700;
-		font-size: 36px;
-		line-height: 1.11;
-		text-align: center;
-		text-transform: capitalize;
-	}
-
 /* Section Team */
 	.team {
 		background-color: var(--cloud);
 	}
 	.team-list li {
 		background-color: var(--white);
-	}
-	.team-list h3 {
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 1.2;
-	}
-	.team-list p {
-		color: var(--slate);
 	}
 	
 /* Footer */
@@ -181,7 +174,5 @@ ul {list-style: none;}
 		font-weight: 500;
 		font-size: 20px;
 		line-height: 1.2;
-	}
-	.portfolio-card-list p {
-		color: var(--slate);
+		color: var(--navy-blue)
 	}
